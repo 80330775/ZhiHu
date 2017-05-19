@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="toolbar">#00a2ea</color>
+
+    <color name="white">#ffFFFFFF</color>
+    <color name="grey_1">#ffEEEEEE</color>
+    <color name="grey_2">#ffDDDDDD</color>
+    <color name="grey_3">#ffCCCCCC</color>
+    <color name="grey_4">#ffBBBBBB</color>
+    <color name="grey_5">#ffAAAAAA</color>
+    <color name="grey_6">#ff999999</color>
+    <color name="grey_7">#ff888888</color>
+    <color name="grey_8">#ff777777</color>
+    <color name="grey_9">#ff666666</color>
+    <color name="grey_10">#ff555555</color>
+    <color name="grey_11">#ff444444</color>
+    <color name="grey_12">#ff333333</color>
+    <color name="grey_13">#ff222222</color>
+    <color name="grey_14">#ff111111</color>
+    <color name="black">#ff000000</color>
+</resources>

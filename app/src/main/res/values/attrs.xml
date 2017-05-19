@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Editors_ViewGroup">
+        <attr name="editors_text" format="string"/>
+        <attr name="editors_textSize" format="dimension"/>
+        <attr name="editors_circleSize" format="integer"/>
+        <attr name="editors_circleMargin" format="integer"/>
+    </declare-styleable>
+    
+    <declare-styleable name="WelcomeView">
+        <attr name="rectSizeDP" format="integer"/>
+
+    </declare-styleable>
+    
+    <attr name="toolbarColor" format="color"/>
+    <attr name="white_grey_12" format="color"/>
+    <attr name="white_grey_11" format="color"/>
+    <attr name="white_grey_10" format="color"/>
+    <attr name="white_grey_1" format="color"/>
+
+
+    <attr name="black_grey_11" format="color"/>
+    <attr name="black_grey_8" format="color"/>
+    <attr name="black_grey_4" format="color"/>
+    <attr name="black_grey_3" format="color"/>
+    <attr name="black_grey_1" format="color"/>
+
+    <attr name="grey_11_grey_3" format="color"/>
+    <attr name="grey_1_grey_13" format="color"/>
+    <attr name="grey_1_grey_12" format="color"/>
+    <attr name="grey_1_grey_11" format="color"/>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="?attr/white_grey_12">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/avatar"
+        android:layout_width ="35dp"
+        android:layout_height="35dp"/>
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/avatar"
+        android:layout_toEndOf="@id/avatar"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="?attr/black_grey_4"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:drawableLeft="@drawable/ic_thumb_up_grey_500_18dp"
+        android:drawableStart="@drawable/ic_thumb_up_grey_500_18dp"
+        android:drawablePadding="5dp"
+        android:textColor="@color/grey_4"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/avatar"
+        android:layout_alignLeft="@id/author"
+        android:layout_alignStart="@id/author"
+        android:textColor="?attr/black_grey_8"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/reply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/content"
+        android:layout_alignLeft="@id/content"
+        android:layout_alignStart="@id/content"
+        android:layout_alignRight="@id/likes"
+        android:layout_alignEnd="@id/likes"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/grey_10"/>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reply"
+        android:layout_alignLeft="@id/content"
+        android:layout_alignStart="@id/content"
+        android:layout_marginTop="15dp"
+        android:textSize="12sp"
+        android:textColor="@color/grey_4"/>
+</RelativeLayout>

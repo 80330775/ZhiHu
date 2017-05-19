@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">仿知乎日报</string>
+    <string name="collect">我的收藏</string>
+    <string name="download">离线下载</string>
+    <string name="notifications">通知</string>
+    <string name="nightMode">夜间模式</string>
+    <string name="dayMode">日间模式</string>
+    <string name="setting">设置选项</string>
+    <string name="comments">条点评</string>
+    <string name="long_comments">条长评</string>
+    <string name="short_comments">条短评</string>
+    <string name="no_comments">深度长评虚位以待</string>
+    <string name="percent">%</string>
+</resources>
